@@ -1,1 +1,1 @@
-My 1st project on Inventory Management GUI.
+I made this project using Java AWT and Java Swing this application can be used to manage Inventory.
