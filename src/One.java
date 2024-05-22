@@ -33,20 +33,20 @@ class One extends Frame implements ActionListener
         });
 		p1=new Panel(null);
 		p1.setBounds(10,20,200,800);
-		p1.setBackground(new Color(255,204,255));
+		p1.setBackground(new Color(35, 43, 196));
 		p2=new Panel();
 		p2.setBounds(510,20,890,50);
-		p2.setBackground(Color.blue);
+		p2.setBackground(new Color(35, 43, 196));
 		p3=new Panel();
 		p3.setBounds(250,90,1100,50);
-		p3.setBackground(new Color(255,153,255));
+		p3.setBackground(new Color(220, 220, 220));
 	    p4=new Panel(null);
 		p4.setBounds(250,160,800,520);
-		p4.setBackground(new Color(234,255,204));
+		p4.setBackground(new Color(220, 220, 220));
 		p4.setVisible(false);
 		p5=new Panel(null);
 		p5.setBounds(250,160,800,520);
-		p5.setBackground(new Color(51,255,255));
+		p5.setBackground(new Color(220, 220, 220));
 		p5.setVisible(false);
 		/*p6=new Panel(null);
 		p6.setBounds(250,160,800,520);
@@ -54,19 +54,21 @@ class One extends Frame implements ActionListener
 		p6.setVisible(false);*/
 		p7=new Panel(null);
 		p7.setBounds(250,160,800,720);
-		p7.setBackground(new Color(153,255,204));
+		p7.setBackground(new Color(220, 220, 220));
 		p7.setVisible(false);
 		p8=new Panel(null);
 		p8.setBounds(250,160,800,520);
-		p8.setBackground(new Color(153,255,204));
+		p8.setBackground(new Color(220, 220, 220));
 		p8.setVisible(false);
 		
 		l1=new Label("SynTech");
 		l1.setFont(new Font("Arial",Font.BOLD,50));
 		l1.setBounds(220,30,250,50);
+		l1.setForeground(new Color(220, 220, 220));
 		l2=new Label("ORDER MENU");
 		l2.setFont(new Font("Boulder",Font.BOLD,40));
 		l2.setBounds(255,90,500,40);
+	
 		l3=new Label("Item Form");
 		l3.setFont(new Font("Arial",Font.BOLD,30));
 		l3.setBounds(300,20,300,40);
@@ -128,10 +130,12 @@ class One extends Frame implements ActionListener
 		b1.setFont(new Font("Arial",Font.PLAIN,30));
 		b1.setBounds(20,30,150,100);
 		b1.addActionListener(this);
+		
 		b2=new Button("Stock Summary");
 		b2.setFont(new Font("Arial",Font.BOLD,20));
 		b2.setBounds(20,190,150,100);
 		b2.addActionListener(this);
+		
 		b3=new Button("Purchase/Return");
 		b3.setFont(new Font("Arial",Font.BOLD,18));
 		b3.setBounds(20,340,150,100);
